@@ -31,7 +31,7 @@ div {                             /* geldt voor div */
 /* Indeling voor alle pagina's */
 
 .page {
-  width: 700px;                   /* vaste breedte van 700 pixels */
+  width: 1500px;                   /* vaste breedte van 700 pixels */
   margin: 10px auto;              /* boven en onder 10 pixels marge, links en rechts marge gelijk verdeeld (gecentreerd) */
 }
 
@@ -67,7 +67,7 @@ img {
 }
 .item-tekst {
   float:right;
-  width: 450px;
+  width: 1000px;
 }
 
 /* Indeling voor sub pagina */
@@ -75,7 +75,7 @@ img {
 /* Opmaak voor alle pagina's */
 
 h1, h2, h3 {
-      color: skyblue;
+      color: rgb(246, 4, 8);
 }
 
 .smalltext {
@@ -105,6 +105,7 @@ nav ul {
 
 nav ul li {
     float: left;
+    width:25%;
 }
 
 nav li a {
@@ -116,9 +117,12 @@ nav li a {
 }
 
 nav li a:hover {
-    background-color: #aaaaaa;
+    background-color: #ff0000;
 }
 
 nav li a.active {
-    background-color: skyblue;
+    background-color: rgb(26, 165, 18);
 }
+
+
+ 
