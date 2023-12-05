@@ -48,8 +48,8 @@ h1, h2, h3 {                      /* geldt voor h1 en h2 en h3 */
 } 
 
 p {
-  margin: 10px 0px;
-  text-align: justify;            /* tekst links en rechts uitvullen */
+  text-align: justify;
+  font-size:25px;            /* tekst links en rechts uitvullen */
 }
 
 img {
@@ -62,8 +62,8 @@ img {
 
 .item-plaatje {
   float:left;
-  width:250px;
-  padding-right: 15px; /* zorgt dat plaatje niet tegen tekst komt */
+  width:42opx;
+  padding-right: 0px; /* zorgt dat plaatje niet tegen tekst komt */
 }
 .item-tekst {
   float:right;
